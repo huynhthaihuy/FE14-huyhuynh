@@ -1,0 +1,286 @@
+body {
+    font-size: 100%;
+    width: 1200px;
+    margin: 0 auto;
+    border-right: 6px solid black;
+    border-left: 6px solid black;
+}
+
+.header {
+    height: 120px;
+    background-color: #ffffff;
+}
+
+.header i {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.header-top {
+    height: 40px;
+    background-color: #95ED27;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search {
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    height: 23px;
+}
+
+#icon-left {
+    margin-left: 120px;
+    margin-top: 4px;
+}
+
+#icon-center {
+    display: flex;
+    margin-top: 4px;
+    margin-left: 380px;
+}
+
+#search-input {
+    border: none;
+    background-color: #95ED27;
+    width: 110px;
+    height: 16px;
+    color: #ffffff;
+    padding-left: 10px;
+}
+
+#icon-right {
+    width: 80px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+    margin-top: 3px;
+    text-align: center;
+}
+
+#icon-right i {
+    padding: 3.5px 3px;
+    width: 20px;
+    height: 16px;
+    border: 1px solid #ffffff;
+    border-radius: 2px;
+}
+
+.header-nav {
+    display: flex;
+}
+
+.header-nav img {
+    margin: 17.5px 20px 17.5px 130px;
+}
+
+.nav-list {
+    margin-top: 27.5px;
+    height: 35px;
+    display: flex;
+}
+
+.nav-list a {
+    float: left;
+    color: #95ED27;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+    padding-top: 9px;
+    margin-left: 40px;
+}
+
+.nav-list a.active {
+    width: 65px;
+    border-radius: 4px;
+    background-color: #95ED27;
+    color: #ffffff;
+}
+
+.nav-list i {
+    padding-top: 9px;
+    margin-left: 30px;
+}
+
+.nav-list a:hover {
+    background-color: rgb(252, 215, 240);
+}
+
+.container {
+    height: 905px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-header {
+    height: 155px;
+}
+
+.container-header h1 {
+    font-size: 150%;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px o 10px 0;
+}
+
+.container-header p {
+    text-align: center;
+    font-weight: bold;
+    color: #75B325;
+    padding-top: 30px;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    height: 385px;
+}
+
+.top-bg {
+    background-image: url(81tkz6rdz9L.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    height: 365px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.text{
+    margin-top: 70px;
+    margin-left: 250px;
+    margin-right: 250px;
+    width: 80%;
+    color: red;
+    text-align: center;
+}
+.button{
+    border-radius: 8%;
+    margin-top: 10px;
+}
+
+#icon-circle-left {
+    float: left;
+    font-size: 20px;
+    margin: 167.5px 0 167.5px 15px;
+}
+
+#icon-circle-right {
+    float: right;
+    font-size: 20px;
+    margin: 167.5px 15px 167.5px 0;
+}
+
+.content-left {
+    padding: 50px 40px 0 125px;
+}
+.content-left blockquote {
+    opacity: 0.4;
+    font-size: 80%;
+    margin:0;
+}
+
+.content-right {
+    width: 50%;
+}
+
+.content-right img {
+    width: 420px;
+    height: 280px;
+    padding: 30px 40px 20px 30px;
+    position: relative;
+}
+
+.footer {
+    background-color: #95ED27;
+    height: 180px;
+    width: 100%;
+}
+
+.icon-footer {
+    height: 160px;
+    padding-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-footer i {
+    margin: 10px 0 10px 0;
+    border-radius: 5px;
+    font-size: 65px;
+    color: #ffffff;
+}
+
+.footer p {
+    margin-top: 20px;
+}
+
+#icon-comment {
+    width: 418px;
+    border-right: 2px dashed #ffffff;
+}
+
+ #icon-comment-pr {
+    border: 2px solid #ffffff;
+    width: 90px;
+    height: 90px;
+    margin-left: 220px;
+}
+
+#icon-comment p {
+    margin-left: 200px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+#icon-comment-pr i {
+    padding-left: 14.5px;
+}
+
+#icon-basket {
+    width: 360px;
+    border-right: 2px dashed #ffffff
+}
+
+#icon-basket-pr {
+    border: 2px solid #ffffff;
+    width: 90px;
+    height: 90px;
+    margin-left: 130px;
+}
+
+#icon-basket p {
+    margin-left: 130px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+#icon-basket-pr i {
+    padding-left: 10px;
+}
+
+#icon-map {
+    width: 420px;
+}
+
+#icon-map-pr {
+    border: 2px solid #ffffff;
+    width: 90px;
+    height: 90px;
+    margin-left: 100px
+}
+
+#icon-map p {
+    margin-left: 90px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+#icon-map-pr i {
+    padding-left: 22px;
+}
